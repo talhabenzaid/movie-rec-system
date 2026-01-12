@@ -1,0 +1,20 @@
+# Ignore all virtual environments
+**/venv/
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc
+
+# Ignore Docker build artifacts (optional)
+*.docker
+*.tar
+docker-compose.override.yml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
